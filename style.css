@@ -87,12 +87,22 @@ body {
   line-height: 30px;
   letter-spacing: 0.4px;
 }
-.header-navigation-list-item:hover {
+.header-navigation-list-item-a {
+  color: #292f36;
+  font-family: "Jost";
+  font-size: 19px;
+  line-height: 30px;
+}
+.header-navigation-list-item-a:hover {
   color: #cda274;
 }
 .hero {
+  margin: 0 auto;
+  max-width: 1600px;
+  background-size: cover;
   background-image: url(img/hero.png);
   background-repeat: no-repeat;
+  background-position: center;
   height: 831px;
   border-radius: 0px 0px 0px 290px;
   display: flex;
@@ -134,12 +144,12 @@ body {
 }
 .features-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
 }
 .features-list-item {
   justify-content: space-between;
-  width: 400px;
+  width: 300px;
   flex-direction: row;
 }
 .features-list-item-title {
@@ -304,15 +314,16 @@ body {
   font-size: 22px;
   line-height: 33px;
   margin-top: 20px;
+  margin-bottom: 70px;
 }
 .recent-projects-list {
-  padding-top: 70px;
   display: flex;
   flex-wrap: wrap;
 }
 .recent-projects-list-item {
-  width: 590px;
+  margin-bottom: 60px;
   margin-right: 20px;
+  flex-basis: calc((100% - 3 * 20px) / 2);
 }
 .recent-projects-list-item:nth-child(even) {
   margin-right: 0px;
