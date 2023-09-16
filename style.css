@@ -55,6 +55,7 @@ a {
 body {
   font-family: "Jost";
   font-size: 22px;
+  letter-spacing: 0.22px;
 }
 
 .container {
@@ -110,7 +111,6 @@ body {
   font-family: "DM Serif Display";
   font-size: 80px;
   line-height: 96px;
-  letter-spacing: 0.22px;
   margin-bottom: 19px;
 }
 .hero-text {
@@ -118,7 +118,6 @@ body {
   font-family: "Jost";
   font-size: 22px;
   line-height: 33px;
-  letter-spacing: 0.22px;
   margin-bottom: 35px;
 }
 .hero-button {
@@ -137,7 +136,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  letter-spacing: 0.22px;
 }
 .features-list-item {
   justify-content: space-between;
@@ -162,7 +160,6 @@ body {
   margin-top: 68px;
 }
 .challenging-designs {
-  letter-spacing: 0.22px;
   margin-top: 100px;
   color: #4d5053;
   font-family: "Jost";
@@ -225,7 +222,6 @@ body {
   background: #f4f0ec;
   border-radius: 70px;
   height: 675px;
-  letter-spacing: 0.22px;
   margin-top: 140px;
 }
 .thinkings-title {
@@ -234,14 +230,125 @@ body {
   font-family: "DM Serif Display";
   font-size: 45px;
   line-height: 58.5px;
+  padding-top: 103px;
 }
 .thinkings-list {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .thinkings-list-item {
   width: 354px;
   height: 287px;
   border-radius: 30px;
   background: #fff;
+  margin-top: 47px;
+}
+.thinkings-list-item-div {
+  width: 289px;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.thinkings-list-item-div-person-info {
+  margin-left: 20px;
+}
+.thinkings-list-item-person-name {
+  width: 162px;
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  line-height: 37.5px;
+}
+.thinkings-list-item-person-location {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 18px;
+  line-height: 27px;
+}
+.thinkings-list-item-comment {
+  width: 256px;
+  margin-top: 20px;
+  margin-left: 35px;
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 20px;
+  line-height: 30px;
+}
+.icons {
+  margin-top: 140px;
+  margin-bottom: 100px;
+}
+.icon-list {
+  display: flex;
+}
+.icon-list-item {
+  margin-right: 125px;
+}
+.icon-list-item:last-child {
+  margin-right: 0px;
+}
+.recent-projects-title {
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 47px;
+  line-height: 62.4px;
+}
+.recent-projects-subtitle {
+  color: #4d5053;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 22px;
+  line-height: 33px;
+  margin-top: 20px;
+}
+.recent-projects-list {
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recent-projects-list-item {
+  width: 590px;
+  margin-right: 20px;
+}
+.recent-projects-list-item:nth-child(even) {
+  margin-right: 0px;
+}
+.recent-projects-list-item-text {
+  display: flex;
+  height: 95px;
+  padding-top: 25px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 221.5px;
+}
+.recent-projects-list-item-title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  line-height: 37.5px;
+}
+.recent-projects-list-item-subtitle {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  line-height: 33px;
+}
+.recent-projects-list-item-button {
+  background-image: url(img/arrow.svg);
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background: #f4f0ec;
+  border: none;
+}
+.reviews {
+  background: #f4f0ec;
+  margin-top: 140px;
+}
+.reviews-list {
+  display: flex;
 }
