@@ -549,11 +549,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+.info-group2-list {
+  width: 150px;
+  margin-right: 60px;
+}
 .info-title {
   color: #292f36;
   font-family: "DM Serif Display";
   font-size: 25px;
   line-height: 37.5px;
+  margin-bottom: 21px;
 }
 .info-subtitle {
   color: #4d5053;
@@ -563,4 +568,34 @@ body {
 }
 .info-list-item:not(:last-child) {
   margin-bottom: 30px;
+}
+.info-group3 {
+  display: flex;
+  flex-direction: column;
+}
+.info-group3-list {
+  width: 150px;
+  margin-right: 60px;
+}
+.info-group4 {
+  display: flex;
+  flex-direction: column;
+}
+.info-group4-list {
+  width: 337px;
+  margin-right: 60px;
+}
+.footer-wrap {
+  display: flex;
+  color: #4d5053;
+  font-family: "Jost";
+  line-height: 33px;
+  justify-content: center;
+  height: 104px;
+}
+.footer-text {
+  margin-top: 35px;
+}
+.footer-colored-text {
+  color: #cda274;
 }
