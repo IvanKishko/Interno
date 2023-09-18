@@ -74,7 +74,6 @@ body {
 }
 .header-navigation-list {
   display: flex;
-  width: 538.016px;
   height: 62px;
   justify-content: flex-end;
   align-items: flex-start;
@@ -91,7 +90,6 @@ body {
   color: #292f36;
   font-family: "Jost";
   font-size: 19px;
-  line-height: 30px;
 }
 .header-navigation-list-item-a:hover {
   color: #cda274;
@@ -108,13 +106,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
 }
 .wrap {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 20px;
+  margin-left: 0 auto;
 }
 .hero-title {
   color: #292f36;
@@ -144,13 +141,11 @@ body {
 }
 .features-list {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
+  justify-content: space-between;
 }
 .features-list-item {
-  justify-content: space-between;
-  width: 300px;
-  flex-direction: row;
+  width: 400px;
 }
 .features-list-item-title {
   color: #292f36;
