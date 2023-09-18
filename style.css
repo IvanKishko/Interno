@@ -330,7 +330,6 @@ body {
 }
 .recent-projects-list-item-text {
   display: flex;
-  height: 95px;
   padding-top: 25px;
   justify-content: center;
   align-items: flex-start;
@@ -359,14 +358,20 @@ body {
 .reviews {
   background: #f4f0ec;
   margin-top: 140px;
+  padding: 140px;
+  margin: 0 auto;
 }
 .reviews-list {
   display: flex;
 }
 .reviews-list-item {
+  border-right: 2px solid #cda274;
   width: 288px;
   margin-right: 16px;
   text-align: center;
+}
+.reviews-list-item:last-child {
+  border: none;
 }
 .reviews-list-item-number {
   color: #cda274;
@@ -381,16 +386,6 @@ body {
   font-size: 22px;
   line-height: 33px;
 }
-/* .reviews-list-item-subtitle::after {
-  content: "";
-  width: 100%;
-  height: 17vh;
-  display: block;
-  background-image: url(img/separation-rectangle.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 4px;
-} */
 .recent-blogs {
   margin-top: 130px;
 }
@@ -416,13 +411,156 @@ body {
 .recent-blogs-list-item {
   flex-basis: calc(33.33% - 10px);
   margin-bottom: 40px;
+  margin-right: 15px;
   width: 387px;
   height: 515px;
   border-radius: 62px;
   border: 1px solid #e7e7e7;
 }
+.recent-blogs-list-item:nth-child(3n + 3) {
+  margin-right: 0px;
+}
 .recent-blogs-list-item-background-image {
-  background-image: url(img/house5.png);
   width: 345px;
   height: 296px;
+  margin: 21px 0px 0px 21px;
+}
+.recent-blogs-item-background-image-button {
+  border-radius: 8px 8px 8px 0px;
+  background: #fff;
+  margin-top: 223px;
+  margin-left: 24px;
+  position: absolute;
+  height: 44px;
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+}
+.recent-blogs-list-item-interior-name {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  margin-left: 21px;
+}
+.recent-blogs-list-item-div {
+  margin-left: 21px;
+  margin-top: 34px;
+  display: flex;
+}
+.recent-blogs-list-item-subtitle {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 24px;
+}
+.recent-blogs-list-item-button {
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  background: #f4f0ec;
+  margin-left: 149px;
+  border: none;
+}
+.recent-blogs-list-item-background-image1 {
+  background-image: url(img/house5.png);
+}
+.recent-blogs-list-item-background-image2 {
+  background-image: url(img/house6.png);
+}
+.recent-blogs-list-item-background-image3 {
+  background-image: url(img/house7.png);
+}
+.recent-blogs-list-item-background-image4 {
+  background-image: url(img/house8.png);
+}
+.recent-blogs-list-item-background-image5 {
+  background-image: url(img/house9.png);
+}
+.recent-blogs-list-item-background-image6 {
+  background-image: url(img/house10.png);
+}
+.join {
+  height: 414px;
+  border-radius: 80px;
+  background: #292f36;
+  margin-bottom: 70px;
+}
+.join-title {
+  color: #fff;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  line-height: 75px;
+  padding-top: 100px;
+}
+.join-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 22px;
+  line-height: 33px;
+}
+.join-button {
+  color: #fff;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #cda274;
+  margin-left: 474px;
+  margin-top: 30px;
+  border-radius: 25px;
+  width: 241px;
+  height: 71px;
+  border: none;
+}
+
+.info {
+  display: flex;
+  height: 454px;
+}
+.info-group1-logo {
+  margin-bottom: 15px;
+}
+.info-text {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  line-height: 33px;
+  width: 326px;
+}
+.info-group1-list {
+  display: flex;
+  margin-top: 10px;
+  width: 210px;
+}
+.info-group1-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+.info-group1 {
+  margin-right: 80px;
+}
+.info-group2 {
+  display: flex;
+  flex-direction: column;
+}
+.info-title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  line-height: 37.5px;
+}
+.info-subtitle {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  line-height: 33px;
+}
+.info-list-item:not(:last-child) {
+  margin-bottom: 30px;
 }
