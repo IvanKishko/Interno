@@ -580,6 +580,9 @@ body {
   width: 337px;
   margin-right: 60px;
 }
+.footer-line {
+  width: 100%;
+}
 .footer-wrap {
   display: flex;
   color: #4d5053;
